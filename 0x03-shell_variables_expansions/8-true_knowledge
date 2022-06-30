@@ -1,2 +1,2 @@
 #!/bin/bash
-echo '\n' $(($TRUEKNOWLEDGE+1337))
+echo '\n' $(($TRUEKNOWLEDGE+128))
