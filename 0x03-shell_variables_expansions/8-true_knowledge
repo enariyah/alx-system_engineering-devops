@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((128+$TRUEKNOLWDGE))
+echo -e '\n' $((128+$TRUEKNOLWDGE))
