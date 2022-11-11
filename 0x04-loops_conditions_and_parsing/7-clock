@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script displays 12 hours and each 59 minutes of the hour
+# This script displays 12 hours and each 59 min
 
 h=0
 
