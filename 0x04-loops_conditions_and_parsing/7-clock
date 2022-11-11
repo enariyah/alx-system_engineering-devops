@@ -2,6 +2,7 @@
 # This script displays 12 hours and each 59 minutes of the hour
 
 h=0
+
 while [ $h -le 12 ]
 do
 	echo "Hour:  $h"
@@ -9,7 +10,7 @@ do
 	while [ $m -le 59 ]
 	do
 		echo "$m"
-		m=$(( m+1 ))
+		(( m+=1 ))
 	done
-	h=$(( h+1 ))
+	(( h+=1 ))
 done
