@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#The script displays files after "-" character
+
+the_ls=$("ls")
+
+for i in $the_ls
+do
+	echo "$i" | cut -d'-' -f2
+done
