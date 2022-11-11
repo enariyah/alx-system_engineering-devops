@@ -9,8 +9,8 @@ do
 	m=1
 	while [ $m -le 59 ]
 	do
-		echo "$m"
-		(( m+=1 ))
+		echo $m
+		(( m += 1 ))
 	done
-	(( h+=1 ))
+	(( h += 1 ))
 done
