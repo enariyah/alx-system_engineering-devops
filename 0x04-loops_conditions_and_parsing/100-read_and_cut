@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# The script reads and cuts the director files
+
+while IFS=: read -r username x uid gid fullname home shell; do
+    echo "$username:$uid:$home"
+done < /etc/passwd
