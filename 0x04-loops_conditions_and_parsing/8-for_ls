@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script displays files in a directory as list
+#!/bin/bash
+
+for file in *; do
+    if [ -f "$file" ] && [ "${file:0:1}" != "." ]; then
+        filename=$(echo "$file" | cut -d'-' -f2-)
+        echo "$filename"
+    fi
+done
