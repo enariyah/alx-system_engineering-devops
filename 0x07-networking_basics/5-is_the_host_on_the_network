@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
+# script displays if the host is in the network
 
-if [ $# -ne 1 ]
+if [ "$#" -eq 0 ]
 then
 	echo "Usage: 5-is_the_host_in_the_network {IP_ADDRESS}"
 else
