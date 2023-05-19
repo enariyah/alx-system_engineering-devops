@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # This script displays all active ipv4 addresses
 
 ipv=$(ip addr show | grep -E '\binet\b.*\bbrd\b' | awk '{print $2}' | cut -d'/' -f1)
