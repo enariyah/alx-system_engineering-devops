@@ -1,5 +1,5 @@
 # Create a file called holberton in the /tmp directory
-file { '/tmp/holberton':
+file { '/tmp/school':
   ensure  => file,
   path    => '/tmp/holberton',
   mode    => '0744',
